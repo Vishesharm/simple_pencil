@@ -1,0 +1,6 @@
+from drawingtool_pencil import drawingtool
+import gunicorn
+
+
+
+web : gunicorn; drawingtool.wsgi
