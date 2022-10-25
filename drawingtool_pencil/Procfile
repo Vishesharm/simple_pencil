@@ -1,1 +1,2 @@
 web : gunicorn drawingtool_pencil.wsgi:application --log-file -
+web: python drawingtool_pencil/manage.py runserver 0.0.0.0:$PORT
